@@ -30,3 +30,9 @@ We trained the model on the preprocessed data using a suitable loss function, su
 
 6️⃣Model Validation And Testing:
 We evaluated the model's performance on a separate test set using various metrics, such as accuracy, precision, recall, F1-score, etc. We also compared the model with other various models to demonstrate its effectiveness.
+
+
+
+
+
+Dataset Link:- https://www.kaggle.com/kutaykutlu/forest-fire
