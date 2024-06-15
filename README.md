@@ -18,6 +18,7 @@ The methodology of this project consists of the following steps:
 
 2️⃣Data Augmentation:
 We manually labelled the collected data (fire, smoke and firefighters) using bounding boxes (for localization) with the help of tools such as Makesense.ai to facilitate the annotation process.
+
 3️⃣  Data preprocessing:
 We performed data augmentation techniques, such as cropping, resizing, flipping, rotating, etc., to increase the diversity and robustness of the data. We also normalized the data to have zero mean and unit variance.
   
