@@ -1,5 +1,10 @@
 # Fire-Smoke-Detection-CNN-Model
 
+# Architecture
+
+
+
+
 This project aims to develop a model that can automatically detect fire and smoke in images and using CNN Model.
 this Project is published IEEE.
 Motivation
