@@ -12,15 +12,21 @@ To evaluate the performance of the model on various metrics, such as Precision, 
 To provide real-time fire and smoke detection from Image feeds or user uploads.
 Methodology
 The methodology of this project consists of the following steps:
+
 1️⃣Data collection:
 We collected fire and smoke images and videos from IndianAI.gov and Roboflow public datasets.
+
 2️⃣Data Augmentation:
 We manually labelled the collected data (fire, smoke and firefighters) using bounding boxes (for localization) with the help of tools such as Makesense.ai to facilitate the annotation process.
+
 3️⃣Data preprocessing:
 We performed data augmentation techniques, such as cropping, resizing, flipping, rotating, etc., to increase the diversity and robustness of the data. We also normalized the data to have zero mean and unit variance.
+
 4️⃣Model development:
 We designed and implemented a deep neural network model that can perform fire and smoke detection in images. We used frameworks such as TensorFlow or PyTorch to build the model. We explored different architectures, such as convolutional neural networks (CNNs), or attention mechanisms, to achieve the best results.
+
 5️⃣Model training:
 We trained the model on the preprocessed data using a suitable loss function, such as binary cross-entropy or mean squared error. We will use optimization algorithms, such as stochastic gradient descent (SGD) or Adam, to update the model parameters. We will also use regularization techniques, such as dropout or batch normalization, to prevent overfitting.
+
 6️⃣Model Validation And Testing:
 We evaluated the model's performance on a separate test set using various metrics, such as accuracy, precision, recall, F1-score, etc. We also compared the model with other various models to demonstrate its effectiveness.
